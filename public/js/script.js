@@ -151,6 +151,30 @@ const tweet1 = {
   
   //Handling user inputs
   1200 + Number('250')
+
+
+
+  //string concatenation
+const firstname = "Freda";
+const lastname = "Astanga";
+firstname.trim() + " " + lastname.trim()
+// Template literal
+`${firstname.trim()} ${lastname.trim()}`;
+
+// String methods
+firstname.length;
+lastname.length;
+`${firstname.trim()} ${lastname.trim()}`.length;
+(firstname.trim() + " " + lastname.trim()).length;
+// firstname.toUppercase();
+lastname.charAt(1)
+`${firstname.trim()} ${lastname.trim()}`.chart(0);
+`${fristname.trim().charAt(0)}${lastname.trim().charAt(0)}`;
+
+//String conversion
+String(2014);
+
+
   
   
   
