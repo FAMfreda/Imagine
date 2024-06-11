@@ -175,6 +175,135 @@ lastname.charAt(1)
 String(2014);
 
 
+ 
+//write a function that will add participants to our google classroom 
+
+function addparticipant(username, email) {
+  if(username == 'Freeda'&& email == '1234') {
+     return 'User is added!'
+  } else if (username != 'Freeda') {
+    return 'Invalid username!';
+  }
+    else if (email != '1234') {
+    return 'Invalid email!';
+  }
+    else {
+    return 'invalid username or email!';
+  }
+ }
+ 
+ addparticipant("Freeda",1234)
+ 
+ 
+ function addparticipant(username, email){
+ if(username =='freda' && email=='1234') {
+   return 'user is added'
+ } 
+   else if (email != '1234'){
+     return 'invalid email'
+   }
+   else return 'invalid username or email'
+ 
+   }
+ addparticipant('freda', '1234')
+ 
+ 
+ 
+ addparticipant('1234')
+ 
+ //Arrays in Javascripts
+ const alphabets = ['A', 'B','C','D'];
+ alphabets;
+ alphabets.join(' ');
+ alphabets.join(' ').split('');
+ 
+ 
+ 
+//write a function that will take first name, last name and return full name
+const user ={
+  
+  firstname: 'Joe',
+    lastname: 'Ganner',
+  }
+  
+  function returnusername(user){
+  return {
+    ...user,
+    fullname: `${user.firstname} ${user.lastname}`
+    }
+  }
+    returnusername(user);
+  
+  //Array map
+  const users = [
+    {firstname: 'Linda', lastname: 'Parker'},
+      {firstname: 'Ann', lastname: 'sarker'},
+      {firstname: 'Freda', lastname: 'farker'},
+     {firstname: 'Dora', lastname: 'Seun'},
+     {firstname: 'Abrah', lastname: 'Sarah'}, 
+  ]
+    users.map(returnusername);
+  
+  
+  //Map and return squares of numbers
+  function square(number) {
+    
+    return number ** 2;
+  }
+  const numbers = [0,1,2,3,4,5]
+  numbers.map(square)
+  
+  //Filter  and return even numbers
+  function even(number){
+    
+    return number % 2 === 0;
+  }
+  numbers.filter(even);
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
   
   
   
